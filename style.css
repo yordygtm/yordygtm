@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+  background-image: url('imagenbackground/999804.jpg');
+  background-position: 0%;
+}
+
+.titulo {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(146, 133, 219);
+}
+
+.textoAll {
+  text-align: center;
+  width: 50% auto;
+
+
+}
+
+.cuadroDeTexto {
+  text-align: center;
+  color: rgb(156, 141, 240);
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+
+}
+
+.botns {
+  text-align: center;
+
+}
+
+#textoEn {
+  background-color: rgb(111, 103, 121);
+  color: white;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#textoEn::placeholder {
+  color: white;
+}
+
+#textoDes {
+  color: rgb(255, 255, 255);
+  background-color: rgb(111, 103, 121);
+  border-radius: 15px 15px 15px 15px;
+}
+
+#textoDes::placeholder {
+  color: white;
+}
+
+#encriptar {
+  padding: 5px 5px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(27, 2, 73);
+  border-radius: 20px 20px 20px 20px;
+}
+
+#desencriptar {
+  padding: 5px 5px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(27, 2, 73);
+  border-radius: 20px 20px 20px 20px;
+}
+
+#copy {
+  padding: 5px 5px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(27, 2, 73);
+  border-radius: 20px 20px 20px 20px;
+}
+
+#encriptar:hover {
+  color: purple;
+  background-color: white;
+  transform: scale(115%);
+}
+
+#desencriptar:hover {
+  color: purple;
+  background-color: white;
+  transform: scale(115%);
+}
+
+#copy:hover {
+  color: purple;
+  background-color: white;
+  transform: scale(115%);
+}
+
+#textoEn:hover {
+  transform: scale(115%);
+}
+
+#textoDes:hover {
+  transform: scale(102%);
+}
+
+.piedepagina {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
